@@ -1,0 +1,2 @@
+vrt_lss_lastmile==3.6.163909
+requests==2.25.1
