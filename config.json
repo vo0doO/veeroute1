@@ -5,9 +5,11 @@
   },
   "path": {
     "orders": {
-      "xlsx": "data/ordersdata_ref.xlsx",
-      "json": "data/ordersdata.json"
+      "xlsx": "data/orders_3.xlsx",
+      "json": "data/orders.json"
     },
-    "plan": {}
+    "plan": {
+      "json": "data/plan.json"
+    }
   }
 }
