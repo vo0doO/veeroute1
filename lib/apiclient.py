@@ -7,9 +7,12 @@ TOKEN = 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJleHRlcm5hbF91c2VyIiwiZXhwIjoxNjI4MDgzNz
 
 
 def returnclient():
-    # создать клиент и экземпляр api
-    configuration = lastmile.Configuration()
-    configuration.host = HOST
-    configuration.access_token = TOKEN
-    client = lastmile.ApiClient(configuration)
-    return client
+    try:
+        # создать клиент и экземпляр api
+        configuration = lastmile.Configuration()
+        configuration.host = HOST
+        configuration.access_token = TOKEN
+        client = lastmile.ApiClient(configuration)
+        return client
+    except Exception as err:
+        print(err)

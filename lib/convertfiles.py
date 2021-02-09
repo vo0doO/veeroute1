@@ -8,7 +8,10 @@ PATH_WJSON = 'data/testanaldata.json'
 
 
 def convertxlsxtojson():
-    convert_api = lastmile.ConvertApi(returnclient())
-    result = convert_api.convert_to_lss_with_http_info(rxlsx(PATH_RXLSX))
-    wjson(PATH_WJSON, result[0])
-    print('Bee ok')
+    try:
+        convert_api = lastmile.ConvertApi(returnclient())
+        result = convert_api.convert_to_lss_with_http_info(rxlsx(PATH_RXLSX))
+        wjson(PATH_WJSON, result[0])
+        print('Bee ok')
+    except Exception as err:
+        print(err)

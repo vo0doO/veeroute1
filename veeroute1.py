@@ -1,8 +1,10 @@
 from lib.convertfiles import convertxlsxtojson
 
 def main():
-    # convertxlsxtojson()
-    return
-
+    try:
+        convertxlsxtojson()
+        return
+    except Exception as err:
+        print(err)
 
 main()
