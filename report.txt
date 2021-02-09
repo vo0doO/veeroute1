@@ -1,10 +1,4 @@
-Всего маршрутов: 13
-Всего заказов: 11
-Запланированно заказов: 9
-Не запланированно заказов: 2
- Заказ: ord0017_af
-  - Возможная причина ошибки: vt_default{}: [{"entity_type":"order","entity_key":"ord0017_af","info":"vt_no_compatible_performer{\"cause\":{\"performer_restrictions\":0}}","validation_type":"WARNING","details":[]}]
-
- Заказ: ord0002_af
-  - Возможная причина ошибки: vt_default{}: [{"entity_type":"order","entity_key":"ord0002_af","info":"vt_no_compatible_transport{\"cause\":{\"mass\":0}}","validation_type":"WARNING","details":[]}]
-
+Всего маршрутов: 18
+Всего заказов: 13
+Запланированно заказов: 13
+Ошибок не обнаруженно
