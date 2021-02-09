@@ -7,7 +7,7 @@ config = rjson("config.json")
 
 def main(config):
     try:
-        # convert_xlsx_to_lss(config)
+        convert_xlsx_to_lss(config)
         get_plan(config)
         return
     except Exception as err:
