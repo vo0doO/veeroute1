@@ -7,4 +7,4 @@ def wjson(path, string):
             file.write(json.dumps(string))
             print(f"{path} write is ok")
     except Exception as err:
-        print(err)
+        print(err.args)
