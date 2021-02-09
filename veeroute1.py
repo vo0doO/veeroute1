@@ -1,7 +1,17 @@
-from lib.convertfiles import convertxlsxtojson
+from lib.readfiles import rjson
+from lib.plan import get_plan
+from lib.convertfiles import convert_xlsx_to_lss
 
-def main():
-    convertxlsxtojson()
+config = rjson("config.json")
 
 
-main()
+def main(config):
+    try:
+        convert_xlsx_to_lss(config)
+        get_plan(config)
+        return
+    except Exception as err:
+        print(err.__traceback__)
+
+
+main(config)
