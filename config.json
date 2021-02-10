@@ -5,9 +5,10 @@
   },
   "path": {
     "orders": {
-      "xlsx": "data/orders_3.xlsx",
+      "xlsx": "data/orders_1.xlsx",
       "json": "data/orders.json"
     },
+    "report": "report.txt",
     "plan": {
       "json": "data/plan.json"
     }

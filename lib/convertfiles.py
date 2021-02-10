@@ -10,6 +10,5 @@ def xlsx_to_lss(config):
         convert_api = lastmile.ConvertApi(return_api_client(config))
         result = convert_api.convert_to_lss_with_http_info(rxlsx(config["path"]["orders"]["xlsx"]))
         wjson(config["path"]["orders"]["json"], result[0])
-        print('Convert xlsx to json complete')
     except Exception as err:
-        print(err.args)
+        print(err)

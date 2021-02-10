@@ -20,15 +20,4 @@ def get(config):
         wjson(config["path"]["plan"]["json"], str(result))
         return
     except Exception as err:
-        print(err.args)
-
-
-def anal(config):
-    """Проанализировать результаты планирования. Вывести в консоль количество маршрутов, количество
-    запланированных/незапланированных заказов и причины, из-за которых заказы не запланированы"""
-    # TODO(vo0doo): реализовать описанный в коментарии функционал
-    try:
-        plan = rjson(config["path"]["plan"]["json"])
-        return
-    except Exception as err:
-        print(err.args)
+        print(err)

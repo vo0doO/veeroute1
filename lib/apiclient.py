@@ -10,4 +10,4 @@ def return_api_client(config):
         client = lastmile.ApiClient(configuration)
         return client
     except Exception as err:
-        print(err.args)
+        print(err)
