@@ -1,23 +1,29 @@
 import vrt_lss_lastmile as lastmile
-from lib.apiclient import return_api_client
+from lib.api import Client
 from lib.readfiles import rjson
 from lib.writefiles import wjson
 
 
-def get(config):
-    """Получить план и записать в файл"""
-    try:
-        data = rjson(config["path"]["orders"]["json"])
-        plan_api = lastmile.PlanApi(return_api_client(config))
-        task = lastmile.PlanTask(
-            locations=data["locations"],
-            orders=data["orders"],
-            performers=data["performers"],
-            transports=data["transports"],
-            shifts=data["shifts"],
+class Plan:
+    """Планирование"""
+
+    def __init__(self, config):
+        self.config = config
+        self.data = rjson(self.config["path"]["orders"]["json"])
+        self.api_client = Client(self.config)
+        self.plan_api = lastmile.PlanApi(self.api_client.get())
+        self.task = lastmile.PlanTask(
+            locations=self.data["locations"],
+            orders=self.data["orders"],
+            performers=self.data["performers"],
+            transports=self.data["transports"],
+            shifts=self.data["shifts"],
         )
-        result = plan_api.plan(task)
-        wjson(config["path"]["plan"]["json"], str(result))
-        return
-    except Exception as err:
-        print(err)
+        self.result = self.plan_api.plan(self.task)
+
+    def save(self):
+        """Сохранить результат планирования в файл в файл json"""
+        try:
+            wjson(self.config["path"]["plan"]["json"], str(self.result))
+        except Exception as err:
+            print(err)

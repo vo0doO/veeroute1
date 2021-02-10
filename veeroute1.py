@@ -1,21 +1,24 @@
-import lib.plan as plan
+from lib.plan import Plan
 from lib.report import Report
 from lib.readfiles import rjson
 from lib.convertfiles import xlsx_to_lss
 
-config = rjson("config.json")
 
+if __name__ == "__main__":
 
-def main(config):
     try:
-        xlsx_to_lss(config)     # конфертировать UD xlsx в LSS Lastmile
-        plan.get(config)    # запланировать заказы записать результат планироваания в plan.json
-        report = Report(config=config)  # создать экземпляр отчёта о результатах анализа plan.json
-        report.get()    # сформировать отчёт
-        report.save()   # вывести отчёт в консоль и сохранить в файл report.txt
-        return
+
+        config = rjson("config.json")   # загрузить config
+
+        xlsx_to_lss(config)  # конвертировать UD xlsx в LSS Lastmile
+
+        plan = Plan(config)  # запланировать заказы
+        plan.save()  # записать результат планироваания в файл plan.json
+
+        report = Report(config)  # создать экземпляр анализатора plan.json
+        report.create()  # сформировать справку о результатах анализа plan.json
+        report.__str__()    # вывести справку в консоль
+        report.save()  # сохранить справку в файл report.txt
+
     except Exception as err:
         print(err.args)
-
-
-main(config)

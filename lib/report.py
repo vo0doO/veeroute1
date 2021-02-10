@@ -2,7 +2,7 @@ from lib.readfiles import rjson
 
 
 class Report:
-    """Проанализировать результаты планирования. Вывести в консоль количество маршрутов, количество
+    """Анализирует результаты планирования. Выводит в консоль и сохраняет в файл количество маршрутов, количество
     запланированных/незапланированных заказов и причины, из-за которых заказы не запланированы"""
 
     def __init__(self, config):
@@ -19,8 +19,8 @@ class Report:
         }
         self.strings = []
 
-    def get(self):
-
+    def create(self):
+        """Сформировать отчёт"""
         try:
 
             self.strings.append(self.template["route"])
@@ -39,17 +39,22 @@ class Report:
             else:
                 self.strings.append("Ошибок не обнаруженно")
 
-            return self.strings
-
         except Exception as err:
             print(err)
 
     def save(self):
+        """Сохранить отчёт файл json"""
         try:
-            with open(self.config["path"]["report"], encoding="cp1251", mode="w") as f:
+            with open(self.config["path"]["report"], encoding="utf-8", mode="w") as f:
                 for item in self.strings:
-                    print(item)
                     f.write(item)
                     f.write("\n")
+        except Exception as err:
+            print(err)
+
+    def __str__(self):
+        try:
+            for item in self.strings:
+                print(item)
         except Exception as err:
             print(err)
