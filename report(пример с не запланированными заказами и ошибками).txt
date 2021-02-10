@@ -1,10 +1,10 @@
-Всего маршрутов: 13
-Всего заказов: 11
-Запланированно заказов: 9
-Не запланированно заказов: 2
- Заказ: ord0017_af
-  - Возможная причина ошибки: vt_default{}: [{"entity_type":"order","entity_key":"ord0017_af","info":"vt_no_compatible_performer{\"cause\":{\"performer_restrictions\":0}}","validation_type":"WARNING","details":[]}]
+Р’СЃРµРіРѕ РјР°СЂС€СЂСѓС‚РѕРІ: 13
+Р’СЃРµРіРѕ Р·Р°РєР°Р·РѕРІ: 11
+Р—Р°РїР»Р°РЅРёСЂРѕРІР°РЅРЅРѕ Р·Р°РєР°Р·РѕРІ: 9
+РќРµ Р·Р°РїР»Р°РЅРёСЂРѕРІР°РЅРЅРѕ Р·Р°РєР°Р·РѕРІ: 2
+ Р—Р°РєР°Р·: ord0017_af
+  - Р’РѕР·РјРѕР¶РЅР°СЏ РїСЂРёС‡РёРЅР° РѕС€РёР±РєРё: vt_default{}: [{"entity_type":"order","entity_key":"ord0017_af","info":"vt_no_compatible_performer{\"cause\":{\"performer_restrictions\":0}}","validation_type":"WARNING","details":[]}]
 
- Заказ: ord0002_af
-  - Возможная причина ошибки: vt_default{}: [{"entity_type":"order","entity_key":"ord0002_af","info":"vt_no_compatible_transport{\"cause\":{\"mass\":0}}","validation_type":"WARNING","details":[]}]
+ Р—Р°РєР°Р·: ord0002_af
+  - Р’РѕР·РјРѕР¶РЅР°СЏ РїСЂРёС‡РёРЅР° РѕС€РёР±РєРё: vt_default{}: [{"entity_type":"order","entity_key":"ord0002_af","info":"vt_no_compatible_transport{\"cause\":{\"mass\":0}}","validation_type":"WARNING","details":[]}]
 
