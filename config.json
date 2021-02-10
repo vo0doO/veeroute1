@@ -5,8 +5,8 @@
   },
   "path": {
     "orders": {
-      "xlsx": "data/orders_4.xlsx",
-      "json": "data/orders.json"
+      "xlsx": "data/RC1_testAnalist_4.xlsx",
+      "json": "data/RC1_testAnalist.json"
     },
     "report": "report.txt",
     "plan": {
