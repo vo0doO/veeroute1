@@ -1,7 +1,7 @@
 import vrt_lss_lastmile as lastmile
 from lib.api import Client
 from lib.readfiles import rjson
-from lib.writefiles import wjson
+from lib.writefiles import write_json
 
 
 class Plan:
@@ -24,6 +24,6 @@ class Plan:
     def save(self):
         """Сохранить результат планирования в файл в файл json"""
         try:
-            wjson(self.config["path"]["plan"]["json"], str(self.result))
+            write_json(self.config["path"]["plan"]["json"], data=self.api_client.client.sanitize_for_serialization(self.result))
         except Exception as err:
             print(err)

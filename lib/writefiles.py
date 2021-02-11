@@ -1,10 +1,13 @@
 import json
 
 
-def wjson(path, string):
+def write_json(target_filename: str, data: object) -> None:
     """Записать строку в файл json"""
+    if data is None:
+        return
     try:
-        with open(path, mode='w') as file:
-            file.write(json.dumps(string))
-    except Exception as err:
-        print(err)
+        with open(target_filename, "w", encoding="utf8") as f:
+            json.dump(data, f, indent=2, skipkeys=True, allow_nan=False, sort_keys=True)
+    except Exception as e:
+        print(f"Error during write jsom -> {e}")
+        raise e
