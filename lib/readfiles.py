@@ -3,7 +3,7 @@ import datetime
 from dateutil.tz import tzutc
 
 
-def rxlsx(path):
+def read_xlsx(path):
     """Прочитать xlsx и вернуть байты"""
     try:
         with open(path, mode='r+b') as file:
@@ -11,9 +11,10 @@ def rxlsx(path):
             return body
     except Exception as err:
         print(err)
+        raise err
 
 
-def rjson(path):
+def read_json(path):
     """Прочитать json и вернуть словарь python"""
     try:
         with open(path, 'r', encoding='utf-8') as file:
@@ -22,3 +23,4 @@ def rjson(path):
             return data
     except Exception as err:
         print(err)
+        raise err

@@ -1,7 +1,7 @@
 {
   "info": {
     "planning_time": 0,
-    "result_version": 101,
+    "result_version": 84,
     "status": "FINISHED_IN_TIME",
     "waiting_time": 0
   },
@@ -140,8 +140,8 @@
             },
             "demand_ids": [
               "ord0003_af#demand \u21163 \u0441\u0431\u043e\u0440",
-              "ord0007_af#demand \u21167 \u0441\u0431\u043e\u0440",
-              "ord0005_af#demand \u21165 \u0441\u0431\u043e\u0440"
+              "ord0005_af#demand \u21165 \u0441\u0431\u043e\u0440",
+              "ord0007_af#demand \u21167 \u0441\u0431\u043e\u0440"
             ],
             "download": {
               "capacity": {
@@ -298,7 +298,7 @@
             "measurements": {
               "arriving_time": 0,
               "departure_time": 0,
-              "distance": 54370,
+              "distance": 54368,
               "driving_time": 72,
               "time_window": {
                 "from": "2020-07-29T08:07:00+00:00",
@@ -803,7 +803,7 @@
             "measurements": {
               "arriving_time": 0,
               "departure_time": 0,
-              "distance": 25035,
+              "distance": 25037,
               "driving_time": 27,
               "time_window": {
                 "from": "2020-07-29T13:37:00+00:00",
@@ -938,7 +938,7 @@
     ]
   },
   "tracedata": {
-    "code": "external_user_LssTestingV3_LastmileServicePlanner_2021-02-11-12-38_45bdf276-9fae-4dd3-9e9c-6a6c17be6b00"
+    "code": "external_user_LssTestingV3_LastmileServicePlanner_2021-02-15-12-50_c071f07a-d332-41c6-8245-682b4d3b7759"
   },
   "trips": [
     {
@@ -976,12 +976,12 @@
           "cargo_placements": [
             {
               "box_key": "box_key3",
-              "cargo_key": "ord0007_af"
+              "cargo_key": "ord0005_af"
             }
           ],
-          "demand_key": "demand \u21167 \u0441\u0431\u043e\u0440",
+          "demand_key": "demand \u21165 \u0441\u0431\u043e\u0440",
           "location_key": "loc0001",
-          "order_key": "ord0007_af",
+          "order_key": "ord0005_af",
           "todolist": [
             {
               "job_time": "2020-07-29T06:05:00+00:00",
@@ -1001,12 +1001,12 @@
           "cargo_placements": [
             {
               "box_key": "box_key3",
-              "cargo_key": "ord0005_af"
+              "cargo_key": "ord0007_af"
             }
           ],
-          "demand_key": "demand \u21165 \u0441\u0431\u043e\u0440",
+          "demand_key": "demand \u21167 \u0441\u0431\u043e\u0440",
           "location_key": "loc0001",
-          "order_key": "ord0005_af",
+          "order_key": "ord0007_af",
           "todolist": [
             {
               "job_time": "2020-07-29T06:10:00+00:00",
