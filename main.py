@@ -17,6 +17,7 @@ if __name__ == "__main__":
         report.create()  # сформировать справку о результатах анализа plan.json
         report.__str__()    # вывести справку в консоль
         report.save()  # сохранить справку в файл report.txt
+        service_planing.analytic_planing_result(api_client, task, planing_result)
 
     except Exception as err:
         print(err.args)

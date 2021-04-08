@@ -58,6 +58,19 @@ class ServicePlaning:
             print(f"Ошибка в процессе планирования -> {err}")
             raise err
 
+    def analytic_planing_result(self, api_client: lastmile.ApiClient, task: lastmile.PlanTask, planing_result: lastmile.PlanResult):
+        try:
+            import vrt_lss_lastmile as lastmile
+            analytic_api = lastmile.AnalyticsApi(api_client)
+            analityc_task = lastmile.AnalyticsTask(plan_task=task, plan_result=planing_result)
+            anal = analytic_api.analytics(lastmile.ApiClient().sanitize_for_serialization(analityc_task), _preload_content=False)
+            newfile = open(self.config["path"]["anal"], "wb")
+            newfile.write(anal.data)
+            newfile.close()
+        except Exception as err:
+            print(f"Ошибка в процессе получения аналитической справки -> {err}")
+            raise err
+
     def write_planing_result(self, planing_result: lastmile.PlanResult) -> None:
         """Записать результат планирования в файл json"""
         try:

@@ -1,7 +1,7 @@
 {
   "info": {
     "planning_time": 0,
-    "result_version": 85,
+    "result_version": 119,
     "status": "FINISHED_IN_TIME",
     "waiting_time": 0
   },
@@ -15,17 +15,17 @@
         "mass": 2.37,
         "volume": 0.51
       },
-      "cost": 6296.57,
+      "cost": 6202.57,
       "measurements": {
         "arriving_time": 0,
         "departure_time": 0,
         "distance": 270657,
-        "driving_time": 397,
+        "driving_time": 350,
         "time_window": {
-          "from": "2020-07-29T06:00:00+00:00",
-          "to": "2020-07-29T14:55:00+00:00"
+          "from": "2020-07-29T12:51:00+00:00",
+          "to": "2020-07-29T20:59:00+00:00"
         },
-        "total_time": 535,
+        "total_time": 488,
         "waiting_time": 0,
         "working_time": 138
       },
@@ -64,7 +64,7 @@
             "capacity_x": 0.0,
             "capacity_y": 0.0,
             "capacity_z": 0.0,
-            "mass": 0.0,
+            "mass": 3.0,
             "volume": 2.5
           },
           "count": 3
@@ -74,7 +74,7 @@
             "capacity_x": 1.0,
             "capacity_y": 1.0,
             "capacity_z": 1.0,
-            "mass": 0.0,
+            "mass": 1.0,
             "volume": 0.2777777777777778
           },
           "capacity_utilization": {
@@ -84,17 +84,17 @@
             "mass": 2.37,
             "volume": 0.51
           },
-          "cost": 6296.57,
+          "cost": 6202.57,
           "measurements": {
             "arriving_time": 0,
             "departure_time": 0,
             "distance": 270657,
-            "driving_time": 397,
+            "driving_time": 350,
             "time_window": {
-              "from": "2020-07-29T06:00:00+00:00",
-              "to": "2020-07-29T14:55:00+00:00"
+              "from": "2020-07-29T12:51:00+00:00",
+              "to": "2020-07-29T20:59:00+00:00"
             },
-            "total_time": 535,
+            "total_time": 488,
             "waiting_time": 0,
             "working_time": 138
           },
@@ -133,658 +133,6 @@
                 "capacity_x": 0.0,
                 "capacity_y": 0.0,
                 "capacity_z": 0.0,
-                "mass": 2.1,
-                "volume": 2.1
-              },
-              "count": 3
-            },
-            "demand_ids": [
-              "ord0003_af#demand \u21163 \u0441\u0431\u043e\u0440",
-              "ord0007_af#demand \u21167 \u0441\u0431\u043e\u0440",
-              "ord0006_af#demand \u21166 \u0441\u0431\u043e\u0440"
-            ],
-            "download": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 0.0,
-                "volume": 0.0
-              },
-              "count": 0
-            },
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 55.837956,
-              "longitude": 37.48106
-            },
-            "location_key": "loc0001",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 0,
-              "driving_time": 0,
-              "time_window": {
-                "from": "2020-07-29T06:00:00+00:00",
-                "to": "2020-07-29T06:15:00+00:00"
-              },
-              "total_time": 15,
-              "waiting_time": 0,
-              "working_time": 15
-            },
-            "upload": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 2.1,
-                "volume": 2.1
-              },
-              "count": 3
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 2.0,
-                "volume": 2.0
-              },
-              "count": 2
-            },
-            "demand_ids": [
-              "ord0007_af#demand \u21167 \u0434\u0440\u043e\u043f"
-            ],
-            "download": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 0.1,
-                "volume": 0.1
-              },
-              "count": 1
-            },
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 55.705007,
-              "longitude": 37.501656
-            },
-            "location_key": "loc0002",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 20291,
-              "driving_time": 30,
-              "time_window": {
-                "from": "2020-07-29T06:45:00+00:00",
-                "to": "2020-07-29T06:46:00+00:00"
-              },
-              "total_time": 31,
-              "waiting_time": 0,
-              "working_time": 1
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 1.0,
-                "volume": 1.0
-              },
-              "count": 1
-            },
-            "demand_ids": [
-              "ord0003_af#demand \u21163 \u0434\u0440\u043e\u043f"
-            ],
-            "download": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 1.0,
-                "volume": 1.0
-              },
-              "count": 1
-            },
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 55.687854,
-              "longitude": 37.482825
-            },
-            "location_key": "loc0004",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 3581,
-              "driving_time": 8,
-              "time_window": {
-                "from": "2020-07-29T06:54:00+00:00",
-                "to": "2020-07-29T06:55:00+00:00"
-              },
-              "total_time": 9,
-              "waiting_time": 0,
-              "working_time": 1
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 1.0,
-                "volume": 1.0
-              },
-              "count": 1
-            },
-            "demand_ids": [
-              "ord0021_af#\u0417\u0430\u043a\u0430\u0437 \u211615"
-            ],
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 56.040355,
-              "longitude": 37.228898
-            },
-            "location_key": "work_loc0007",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 54368,
-              "driving_time": 72,
-              "time_window": {
-                "from": "2020-07-29T08:07:00+00:00",
-                "to": "2020-07-29T08:22:00+00:00"
-              },
-              "total_time": 87,
-              "waiting_time": 0,
-              "working_time": 15
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 2.0,
-                "volume": 1.5
-              },
-              "count": 2
-            },
-            "demand_ids": [
-              "ord0023_af#demand \u21167 \u0441\u0431\u043e\u0440"
-            ],
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 56.040355,
-              "longitude": 37.228898
-            },
-            "location_key": "loc0008",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 0,
-              "driving_time": 0,
-              "time_window": {
-                "from": "2020-07-29T08:22:00+00:00",
-                "to": "2020-07-29T08:33:00+00:00"
-              },
-              "total_time": 11,
-              "waiting_time": 0,
-              "working_time": 11
-            },
-            "upload": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 1.0,
-                "volume": 0.5
-              },
-              "count": 1
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 3.0,
-                "volume": 2.5
-              },
-              "count": 3
-            },
-            "demand_ids": [
-              "ord0005_af#demand \u21165 \u0441\u0431\u043e\u0440"
-            ],
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 55.837956,
-              "longitude": 37.48106
-            },
-            "location_key": "loc0001",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 31178,
-              "driving_time": 38,
-              "time_window": {
-                "from": "2020-07-29T09:11:00+00:00",
-                "to": "2020-07-29T09:16:00+00:00"
-              },
-              "total_time": 43,
-              "waiting_time": 0,
-              "working_time": 5
-            },
-            "upload": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 1.0,
-                "volume": 1.0
-              },
-              "count": 1
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 2.0,
-                "volume": 1.5
-              },
-              "count": 2
-            },
-            "demand_ids": [
-              "ord0006_af#demand \u21166 \u0434\u0440\u043e\u043f"
-            ],
-            "download": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 1.0,
-                "volume": 1.0
-              },
-              "count": 1
-            },
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 55.793021,
-              "longitude": 37.806653
-            },
-            "location_key": "loc0007",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 26185,
-              "driving_time": 47,
-              "time_window": {
-                "from": "2020-07-29T10:03:00+00:00",
-                "to": "2020-07-29T10:04:00+00:00"
-              },
-              "total_time": 48,
-              "waiting_time": 0,
-              "working_time": 1
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 1.0,
-                "volume": 0.5
-              },
-              "count": 1
-            },
-            "demand_ids": [
-              "ord0005_af#demand \u21165 \u0434\u0440\u043e\u043f"
-            ],
-            "download": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 1.0,
-                "volume": 1.0
-              },
-              "count": 1
-            },
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 55.812886,
-              "longitude": 37.794457
-            },
-            "location_key": "loc0006",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 3011,
-              "driving_time": 8,
-              "time_window": {
-                "from": "2020-07-29T10:12:00+00:00",
-                "to": "2020-07-29T10:13:00+00:00"
-              },
-              "total_time": 9,
-              "waiting_time": 0,
-              "working_time": 1
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 1.0,
-                "volume": 0.5
-              },
-              "count": 1
-            },
-            "demand_ids": [
-              "ord0022_af#\u0417\u0430\u043a\u0430\u0437 \u211616"
-            ],
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 56.012436,
-              "longitude": 37.821238
-            },
-            "location_key": "work_loc0008",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 33113,
-              "driving_time": 39,
-              "time_window": {
-                "from": "2020-07-29T10:52:00+00:00",
-                "to": "2020-07-29T11:17:00+00:00"
-              },
-              "total_time": 64,
-              "waiting_time": 0,
-              "working_time": 25
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 0.0,
-                "volume": 0.0
-              },
-              "count": 0
-            },
-            "demand_ids": [
-              "ord0023_af#demand \u21167 \u0434\u0440\u043e\u043f"
-            ],
-            "download": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 1.0,
-                "volume": 0.5
-              },
-              "count": 1
-            },
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 56.012436,
-              "longitude": 37.821238
-            },
-            "location_key": "loc0009",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 0,
-              "driving_time": 0,
-              "time_window": {
-                "from": "2020-07-29T11:17:00+00:00",
-                "to": "2020-07-29T11:44:00+00:00"
-              },
-              "total_time": 27,
-              "waiting_time": 0,
-              "working_time": 27
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 0.0,
-                "volume": 0.0
-              },
-              "count": 0
-            },
-            "demand_ids": [
-              "ord0015_af#\u0417\u0430\u043a\u0430\u0437 \u211610"
-            ],
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 55.915094,
-              "longitude": 37.764474
-            },
-            "location_key": "work_loc0002",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 16873,
-              "driving_time": 21,
-              "time_window": {
-                "from": "2020-07-29T12:05:00+00:00",
-                "to": "2020-07-29T12:10:00+00:00"
-              },
-              "total_time": 26,
-              "waiting_time": 0,
-              "working_time": 5
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 0.0,
-                "volume": 0.0
-              },
-              "count": 0
-            },
-            "demand_ids": [
-              "ord0017_af#\u0417\u0430\u043a\u0430\u0437 \u211612"
-            ],
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 55.922979,
-              "longitude": 37.783779
-            },
-            "location_key": "work_loc0004",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 2019,
-              "driving_time": 6,
-              "time_window": {
-                "from": "2020-07-29T12:16:00+00:00",
-                "to": "2020-07-29T12:21:00+00:00"
-              },
-              "total_time": 11,
-              "waiting_time": 0,
-              "working_time": 5
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 0.0,
-                "volume": 0.0
-              },
-              "count": 0
-            },
-            "demand_ids": [
-              "ord0014_af#\u0417\u0430\u043a\u0430\u0437 \u21169"
-            ],
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 55.923932,
-              "longitude": 37.755805
-            },
-            "location_key": "work_loc0001",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 2999,
-              "driving_time": 7,
-              "time_window": {
-                "from": "2020-07-29T12:28:00+00:00",
-                "to": "2020-07-29T12:33:00+00:00"
-              },
-              "total_time": 12,
-              "waiting_time": 0,
-              "working_time": 5
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 0.0,
-                "volume": 0.0
-              },
-              "count": 0
-            },
-            "demand_ids": [
-              "ord0019_af#\u0417\u0430\u043a\u0430\u0437 \u211614"
-            ],
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 55.90288,
-              "longitude": 37.71523
-            },
-            "location_key": "work_loc0006",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 4940,
-              "driving_time": 12,
-              "time_window": {
-                "from": "2020-07-29T12:45:00+00:00",
-                "to": "2020-07-29T12:50:00+00:00"
-              },
-              "total_time": 17,
-              "waiting_time": 0,
-              "working_time": 5
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 0.0,
-                "volume": 0.0
-              },
-              "count": 0
-            },
-            "demand_ids": [
-              "ord0018_af#\u0417\u0430\u043a\u0430\u0437 \u211613"
-            ],
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 55.892748,
-              "longitude": 37.726924
-            },
-            "location_key": "work_loc0005",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 4807,
-              "driving_time": 10,
-              "time_window": {
-                "from": "2020-07-29T13:00:00+00:00",
-                "to": "2020-07-29T13:05:00+00:00"
-              },
-              "total_time": 15,
-              "waiting_time": 0,
-              "working_time": 5
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
-                "mass": 0.0,
-                "volume": 0.0
-              },
-              "count": 0
-            },
-            "demand_ids": [
-              "ord0016_af#\u0417\u0430\u043a\u0430\u0437 \u211611"
-            ],
-            "location": {
-              "arrival_duration": 0,
-              "departure_duration": 0,
-              "latitude": 55.892748,
-              "longitude": 37.726924
-            },
-            "location_key": "work_loc0003",
-            "measurements": {
-              "arriving_time": 0,
-              "departure_time": 0,
-              "distance": 0,
-              "driving_time": 0,
-              "time_window": {
-                "from": "2020-07-29T13:05:00+00:00",
-                "to": "2020-07-29T13:10:00+00:00"
-              },
-              "total_time": 5,
-              "waiting_time": 0,
-              "working_time": 5
-            }
-          },
-          {
-            "current_load": {
-              "capacity": {
-                "capacity_x": 0.0,
-                "capacity_y": 0.0,
-                "capacity_z": 0.0,
                 "mass": 3.0,
                 "volume": 1.0
               },
@@ -793,6 +141,16 @@
             "demand_ids": [
               "ord0002_af#demand \u21162 \u0441\u0431\u043e\u0440"
             ],
+            "download": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 0.0,
+                "volume": 0.0
+              },
+              "count": 0
+            },
             "location": {
               "arrival_duration": 0,
               "departure_duration": 0,
@@ -803,13 +161,13 @@
             "measurements": {
               "arriving_time": 0,
               "departure_time": 0,
-              "distance": 25037,
-              "driving_time": 27,
+              "distance": 0,
+              "driving_time": 0,
               "time_window": {
-                "from": "2020-07-29T13:37:00+00:00",
-                "to": "2020-07-29T13:42:00+00:00"
+                "from": "2020-07-29T12:51:00+00:00",
+                "to": "2020-07-29T12:56:00+00:00"
               },
-              "total_time": 32,
+              "total_time": 5,
               "waiting_time": 0,
               "working_time": 5
             },
@@ -859,14 +217,656 @@
               "arriving_time": 0,
               "departure_time": 0,
               "distance": 20721,
+              "driving_time": 32,
+              "time_window": {
+                "from": "2020-07-29T13:28:00+00:00",
+                "to": "2020-07-29T13:29:00+00:00"
+              },
+              "total_time": 33,
+              "waiting_time": 0,
+              "working_time": 1
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 2.1,
+                "volume": 2.1
+              },
+              "count": 3
+            },
+            "demand_ids": [
+              "ord0005_af#demand \u21165 \u0441\u0431\u043e\u0440",
+              "ord0003_af#demand \u21163 \u0441\u0431\u043e\u0440",
+              "ord0007_af#demand \u21167 \u0441\u0431\u043e\u0440"
+            ],
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 55.837956,
+              "longitude": 37.48106
+            },
+            "location_key": "loc0001",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 21534,
+              "driving_time": 36,
+              "time_window": {
+                "from": "2020-07-29T14:05:00+00:00",
+                "to": "2020-07-29T14:20:00+00:00"
+              },
+              "total_time": 51,
+              "waiting_time": 0,
+              "working_time": 15
+            },
+            "upload": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 2.1,
+                "volume": 2.1
+              },
+              "count": 3
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 2.0,
+                "volume": 2.0
+              },
+              "count": 2
+            },
+            "demand_ids": [
+              "ord0007_af#demand \u21167 \u0434\u0440\u043e\u043f"
+            ],
+            "download": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 0.1,
+                "volume": 0.1
+              },
+              "count": 1
+            },
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 55.705007,
+              "longitude": 37.501656
+            },
+            "location_key": "loc0002",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 20291,
               "driving_time": 33,
               "time_window": {
-                "from": "2020-07-29T14:15:00+00:00",
-                "to": "2020-07-29T14:16:00+00:00"
+                "from": "2020-07-29T14:53:00+00:00",
+                "to": "2020-07-29T14:54:00+00:00"
               },
               "total_time": 34,
               "waiting_time": 0,
               "working_time": 1
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 1.0,
+                "volume": 1.0
+              },
+              "count": 1
+            },
+            "demand_ids": [
+              "ord0003_af#demand \u21163 \u0434\u0440\u043e\u043f"
+            ],
+            "download": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 1.0,
+                "volume": 1.0
+              },
+              "count": 1
+            },
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 55.687854,
+              "longitude": 37.482825
+            },
+            "location_key": "loc0004",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 3581,
+              "driving_time": 8,
+              "time_window": {
+                "from": "2020-07-29T15:02:00+00:00",
+                "to": "2020-07-29T15:03:00+00:00"
+              },
+              "total_time": 9,
+              "waiting_time": 0,
+              "working_time": 1
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 1.0,
+                "volume": 1.0
+              },
+              "count": 1
+            },
+            "demand_ids": [
+              "ord0021_af#\u0417\u0430\u043a\u0430\u0437 \u211615"
+            ],
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 56.040355,
+              "longitude": 37.228898
+            },
+            "location_key": "work_loc0007",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 54368,
+              "driving_time": 72,
+              "time_window": {
+                "from": "2020-07-29T16:15:00+00:00",
+                "to": "2020-07-29T16:30:00+00:00"
+              },
+              "total_time": 87,
+              "waiting_time": 0,
+              "working_time": 15
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 2.0,
+                "volume": 1.5
+              },
+              "count": 2
+            },
+            "demand_ids": [
+              "ord0023_af#demand \u21167 \u0441\u0431\u043e\u0440"
+            ],
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 56.040355,
+              "longitude": 37.228898
+            },
+            "location_key": "loc0008",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 0,
+              "driving_time": 0,
+              "time_window": {
+                "from": "2020-07-29T16:30:00+00:00",
+                "to": "2020-07-29T16:41:00+00:00"
+              },
+              "total_time": 11,
+              "waiting_time": 0,
+              "working_time": 11
+            },
+            "upload": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 1.0,
+                "volume": 0.5
+              },
+              "count": 1
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 3.0,
+                "volume": 2.5
+              },
+              "count": 3
+            },
+            "demand_ids": [
+              "ord0006_af#demand \u21166 \u0441\u0431\u043e\u0440"
+            ],
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 55.837956,
+              "longitude": 37.48106
+            },
+            "location_key": "loc0001",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 31178,
+              "driving_time": 33,
+              "time_window": {
+                "from": "2020-07-29T17:14:00+00:00",
+                "to": "2020-07-29T17:19:00+00:00"
+              },
+              "total_time": 38,
+              "waiting_time": 0,
+              "working_time": 5
+            },
+            "upload": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 1.0,
+                "volume": 1.0
+              },
+              "count": 1
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 2.0,
+                "volume": 1.5
+              },
+              "count": 2
+            },
+            "demand_ids": [
+              "ord0006_af#demand \u21166 \u0434\u0440\u043e\u043f"
+            ],
+            "download": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 1.0,
+                "volume": 1.0
+              },
+              "count": 1
+            },
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 55.793021,
+              "longitude": 37.806653
+            },
+            "location_key": "loc0007",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 26185,
+              "driving_time": 36,
+              "time_window": {
+                "from": "2020-07-29T17:55:00+00:00",
+                "to": "2020-07-29T17:56:00+00:00"
+              },
+              "total_time": 37,
+              "waiting_time": 0,
+              "working_time": 1
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 1.0,
+                "volume": 0.5
+              },
+              "count": 1
+            },
+            "demand_ids": [
+              "ord0005_af#demand \u21165 \u0434\u0440\u043e\u043f"
+            ],
+            "download": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 1.0,
+                "volume": 1.0
+              },
+              "count": 1
+            },
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 55.812886,
+              "longitude": 37.794457
+            },
+            "location_key": "loc0006",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 3011,
+              "driving_time": 6,
+              "time_window": {
+                "from": "2020-07-29T18:02:00+00:00",
+                "to": "2020-07-29T18:03:00+00:00"
+              },
+              "total_time": 7,
+              "waiting_time": 0,
+              "working_time": 1
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 0.0,
+                "volume": 0.0
+              },
+              "count": 0
+            },
+            "demand_ids": [
+              "ord0023_af#demand \u21167 \u0434\u0440\u043e\u043f"
+            ],
+            "download": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 1.0,
+                "volume": 0.5
+              },
+              "count": 1
+            },
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 56.012436,
+              "longitude": 37.821238
+            },
+            "location_key": "loc0009",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 33113,
+              "driving_time": 30,
+              "time_window": {
+                "from": "2020-07-29T18:33:00+00:00",
+                "to": "2020-07-29T19:00:00+00:00"
+              },
+              "total_time": 57,
+              "waiting_time": 0,
+              "working_time": 27
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 0.0,
+                "volume": 0.0
+              },
+              "count": 0
+            },
+            "demand_ids": [
+              "ord0022_af#\u0417\u0430\u043a\u0430\u0437 \u211616"
+            ],
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 56.012436,
+              "longitude": 37.821238
+            },
+            "location_key": "work_loc0008",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 0,
+              "driving_time": 0,
+              "time_window": {
+                "from": "2020-07-29T19:00:00+00:00",
+                "to": "2020-07-29T19:25:00+00:00"
+              },
+              "total_time": 25,
+              "waiting_time": 0,
+              "working_time": 25
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 0.0,
+                "volume": 0.0
+              },
+              "count": 0
+            },
+            "demand_ids": [
+              "ord0015_af#\u0417\u0430\u043a\u0430\u0437 \u211610"
+            ],
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 55.915094,
+              "longitude": 37.764474
+            },
+            "location_key": "work_loc0002",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 16873,
+              "driving_time": 19,
+              "time_window": {
+                "from": "2020-07-29T19:44:00+00:00",
+                "to": "2020-07-29T19:49:00+00:00"
+              },
+              "total_time": 24,
+              "waiting_time": 0,
+              "working_time": 5
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 0.0,
+                "volume": 0.0
+              },
+              "count": 0
+            },
+            "demand_ids": [
+              "ord0017_af#\u0417\u0430\u043a\u0430\u0437 \u211612"
+            ],
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 55.922979,
+              "longitude": 37.783779
+            },
+            "location_key": "work_loc0004",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 2019,
+              "driving_time": 5,
+              "time_window": {
+                "from": "2020-07-29T19:54:00+00:00",
+                "to": "2020-07-29T19:59:00+00:00"
+              },
+              "total_time": 10,
+              "waiting_time": 0,
+              "working_time": 5
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 0.0,
+                "volume": 0.0
+              },
+              "count": 0
+            },
+            "demand_ids": [
+              "ord0014_af#\u0417\u0430\u043a\u0430\u0437 \u21169"
+            ],
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 55.923932,
+              "longitude": 37.755805
+            },
+            "location_key": "work_loc0001",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 2999,
+              "driving_time": 5,
+              "time_window": {
+                "from": "2020-07-29T20:04:00+00:00",
+                "to": "2020-07-29T20:09:00+00:00"
+              },
+              "total_time": 10,
+              "waiting_time": 0,
+              "working_time": 5
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 0.0,
+                "volume": 0.0
+              },
+              "count": 0
+            },
+            "demand_ids": [
+              "ord0019_af#\u0417\u0430\u043a\u0430\u0437 \u211614"
+            ],
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 55.90288,
+              "longitude": 37.71523
+            },
+            "location_key": "work_loc0006",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 4940,
+              "driving_time": 9,
+              "time_window": {
+                "from": "2020-07-29T20:18:00+00:00",
+                "to": "2020-07-29T20:23:00+00:00"
+              },
+              "total_time": 14,
+              "waiting_time": 0,
+              "working_time": 5
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 0.0,
+                "volume": 0.0
+              },
+              "count": 0
+            },
+            "demand_ids": [
+              "ord0016_af#\u0417\u0430\u043a\u0430\u0437 \u211611"
+            ],
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 55.892748,
+              "longitude": 37.726924
+            },
+            "location_key": "work_loc0003",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 4807,
+              "driving_time": 7,
+              "time_window": {
+                "from": "2020-07-29T20:30:00+00:00",
+                "to": "2020-07-29T20:35:00+00:00"
+              },
+              "total_time": 12,
+              "waiting_time": 0,
+              "working_time": 5
+            }
+          },
+          {
+            "current_load": {
+              "capacity": {
+                "capacity_x": 0.0,
+                "capacity_y": 0.0,
+                "capacity_z": 0.0,
+                "mass": 0.0,
+                "volume": 0.0
+              },
+              "count": 0
+            },
+            "demand_ids": [
+              "ord0018_af#\u0417\u0430\u043a\u0430\u0437 \u211613"
+            ],
+            "location": {
+              "arrival_duration": 0,
+              "departure_duration": 0,
+              "latitude": 55.892748,
+              "longitude": 37.726924
+            },
+            "location_key": "work_loc0005",
+            "measurements": {
+              "arriving_time": 0,
+              "departure_time": 0,
+              "distance": 0,
+              "driving_time": 0,
+              "time_window": {
+                "from": "2020-07-29T20:35:00+00:00",
+                "to": "2020-07-29T20:40:00+00:00"
+              },
+              "total_time": 5,
+              "waiting_time": 0,
+              "working_time": 5
             }
           },
           {
@@ -901,13 +901,13 @@
             "measurements": {
               "arriving_time": 0,
               "departure_time": 0,
-              "distance": 21534,
-              "driving_time": 39,
+              "distance": 25037,
+              "driving_time": 19,
               "time_window": {
-                "from": "2020-07-29T14:55:00+00:00",
-                "to": "2020-07-29T14:55:00+00:00"
+                "from": "2020-07-29T20:59:00+00:00",
+                "to": "2020-07-29T20:59:00+00:00"
               },
-              "total_time": 39,
+              "total_time": 19,
               "waiting_time": 0,
               "working_time": 0
             },
@@ -938,549 +938,11 @@
     ]
   },
   "tracedata": {
-    "code": "external_user_LssTestingV3_LastmileServicePlanner_2021-02-15-12-54_576f5276-2ff2-4b53-984c-df3315701efd"
+    "code": "external_user_LssTestingV3_LastmileServicePlanner_2021-04-08-08-56_ce212b69-4136-41a7-afda-e5e7f2ea0c91"
   },
   "trips": [
     {
       "actions": [
-        {
-          "cargo_placements": [
-            {
-              "box_key": "box_key3",
-              "cargo_key": "ord0003_af"
-            }
-          ],
-          "demand_key": "demand \u21163 \u0441\u0431\u043e\u0440",
-          "location_key": "loc0001",
-          "order_key": "ord0003_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T06:00:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T06:00:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:00:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:05:00+00:00",
-              "job_type": "FINISH_WORK"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [
-            {
-              "box_key": "box_key3",
-              "cargo_key": "ord0007_af"
-            }
-          ],
-          "demand_key": "demand \u21167 \u0441\u0431\u043e\u0440",
-          "location_key": "loc0001",
-          "order_key": "ord0007_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T06:05:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:05:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:10:00+00:00",
-              "job_type": "FINISH_WORK"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [
-            {
-              "box_key": "box_key3",
-              "cargo_key": "ord0006_af"
-            }
-          ],
-          "demand_key": "demand \u21166 \u0441\u0431\u043e\u0440",
-          "location_key": "loc0001",
-          "order_key": "ord0006_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T06:10:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:10:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:15:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:15:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [
-            {
-              "box_key": "box_key3",
-              "cargo_key": "ord0007_af"
-            }
-          ],
-          "demand_key": "demand \u21167 \u0434\u0440\u043e\u043f",
-          "location_key": "loc0002",
-          "order_key": "ord0007_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T06:45:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T06:45:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:45:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:46:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:46:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [
-            {
-              "box_key": "box_key3",
-              "cargo_key": "ord0003_af"
-            }
-          ],
-          "demand_key": "demand \u21163 \u0434\u0440\u043e\u043f",
-          "location_key": "loc0004",
-          "order_key": "ord0003_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T06:54:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T06:54:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:54:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:55:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T06:55:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [],
-          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211615",
-          "location_key": "work_loc0007",
-          "order_key": "ord0021_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T08:07:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T08:07:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T08:07:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T08:22:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T08:22:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [
-            {
-              "box_key": "box_key3",
-              "cargo_key": "ord0023_af"
-            }
-          ],
-          "demand_key": "demand \u21167 \u0441\u0431\u043e\u0440",
-          "location_key": "loc0008",
-          "order_key": "ord0023_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T08:22:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T08:22:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T08:22:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T08:33:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T08:33:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [
-            {
-              "box_key": "box_key3",
-              "cargo_key": "ord0005_af"
-            }
-          ],
-          "demand_key": "demand \u21165 \u0441\u0431\u043e\u0440",
-          "location_key": "loc0001",
-          "order_key": "ord0005_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T09:11:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T09:11:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T09:11:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T09:16:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T09:16:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [
-            {
-              "box_key": "box_key3",
-              "cargo_key": "ord0006_af"
-            }
-          ],
-          "demand_key": "demand \u21166 \u0434\u0440\u043e\u043f",
-          "location_key": "loc0007",
-          "order_key": "ord0006_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T10:03:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T10:03:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T10:03:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T10:04:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T10:04:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [
-            {
-              "box_key": "box_key3",
-              "cargo_key": "ord0005_af"
-            }
-          ],
-          "demand_key": "demand \u21165 \u0434\u0440\u043e\u043f",
-          "location_key": "loc0006",
-          "order_key": "ord0005_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T10:12:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T10:12:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T10:12:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T10:13:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T10:13:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [],
-          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211616",
-          "location_key": "work_loc0008",
-          "order_key": "ord0022_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T10:52:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T10:52:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T10:52:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T11:17:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T11:17:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [
-            {
-              "box_key": "box_key3",
-              "cargo_key": "ord0023_af"
-            }
-          ],
-          "demand_key": "demand \u21167 \u0434\u0440\u043e\u043f",
-          "location_key": "loc0009",
-          "order_key": "ord0023_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T11:17:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T11:17:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T11:17:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T11:44:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T11:44:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [],
-          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211610",
-          "location_key": "work_loc0002",
-          "order_key": "ord0015_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T12:05:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T12:05:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T12:05:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T12:10:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T12:10:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [],
-          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211612",
-          "location_key": "work_loc0004",
-          "order_key": "ord0017_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T12:16:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T12:16:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T12:16:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T12:21:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T12:21:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [],
-          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u21169",
-          "location_key": "work_loc0001",
-          "order_key": "ord0014_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T12:28:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T12:28:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T12:28:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T12:33:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T12:33:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [],
-          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211614",
-          "location_key": "work_loc0006",
-          "order_key": "ord0019_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T12:45:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T12:45:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T12:45:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T12:50:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T12:50:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [],
-          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211613",
-          "location_key": "work_loc0005",
-          "order_key": "ord0018_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T13:00:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T13:00:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T13:00:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T13:05:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T13:05:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
-        {
-          "cargo_placements": [],
-          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211611",
-          "location_key": "work_loc0003",
-          "order_key": "ord0016_af",
-          "todolist": [
-            {
-              "job_time": "2020-07-29T13:05:00+00:00",
-              "job_type": "LOCATION_ARRIVAL"
-            },
-            {
-              "job_time": "2020-07-29T13:05:00+00:00",
-              "job_type": "READY_TO_WORK"
-            },
-            {
-              "job_time": "2020-07-29T13:05:00+00:00",
-              "job_type": "START_WORK"
-            },
-            {
-              "job_time": "2020-07-29T13:10:00+00:00",
-              "job_type": "FINISH_WORK"
-            },
-            {
-              "job_time": "2020-07-29T13:10:00+00:00",
-              "job_type": "LOCATION_DEPARTURE"
-            }
-          ]
-        },
         {
           "cargo_placements": [
             {
@@ -1493,23 +955,23 @@
           "order_key": "ord0002_af",
           "todolist": [
             {
-              "job_time": "2020-07-29T13:37:00+00:00",
+              "job_time": "2020-07-29T12:51:00+00:00",
               "job_type": "LOCATION_ARRIVAL"
             },
             {
-              "job_time": "2020-07-29T13:37:00+00:00",
+              "job_time": "2020-07-29T12:51:00+00:00",
               "job_type": "READY_TO_WORK"
             },
             {
-              "job_time": "2020-07-29T13:37:00+00:00",
+              "job_time": "2020-07-29T12:51:00+00:00",
               "job_type": "START_WORK"
             },
             {
-              "job_time": "2020-07-29T13:42:00+00:00",
+              "job_time": "2020-07-29T12:56:00+00:00",
               "job_type": "FINISH_WORK"
             },
             {
-              "job_time": "2020-07-29T13:42:00+00:00",
+              "job_time": "2020-07-29T12:56:00+00:00",
               "job_type": "LOCATION_DEPARTURE"
             }
           ]
@@ -1526,9 +988,92 @@
           "order_key": "ord0002_af",
           "todolist": [
             {
-              "job_time": "2020-07-29T14:15:00+00:00",
+              "job_time": "2020-07-29T13:28:00+00:00",
               "job_type": "LOCATION_ARRIVAL"
             },
+            {
+              "job_time": "2020-07-29T13:28:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T13:28:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T13:29:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T13:29:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [
+            {
+              "box_key": "box_key3",
+              "cargo_key": "ord0005_af"
+            }
+          ],
+          "demand_key": "demand \u21165 \u0441\u0431\u043e\u0440",
+          "location_key": "loc0001",
+          "order_key": "ord0005_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T14:05:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T14:05:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T14:05:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T14:10:00+00:00",
+              "job_type": "FINISH_WORK"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [
+            {
+              "box_key": "box_key3",
+              "cargo_key": "ord0003_af"
+            }
+          ],
+          "demand_key": "demand \u21163 \u0441\u0431\u043e\u0440",
+          "location_key": "loc0001",
+          "order_key": "ord0003_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T14:10:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T14:10:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T14:15:00+00:00",
+              "job_type": "FINISH_WORK"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [
+            {
+              "box_key": "box_key3",
+              "cargo_key": "ord0007_af"
+            }
+          ],
+          "demand_key": "demand \u21167 \u0441\u0431\u043e\u0440",
+          "location_key": "loc0001",
+          "order_key": "ord0007_af",
+          "todolist": [
             {
               "job_time": "2020-07-29T14:15:00+00:00",
               "job_type": "READY_TO_WORK"
@@ -1538,11 +1083,466 @@
               "job_type": "START_WORK"
             },
             {
-              "job_time": "2020-07-29T14:16:00+00:00",
+              "job_time": "2020-07-29T14:20:00+00:00",
               "job_type": "FINISH_WORK"
             },
             {
-              "job_time": "2020-07-29T14:16:00+00:00",
+              "job_time": "2020-07-29T14:20:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [
+            {
+              "box_key": "box_key3",
+              "cargo_key": "ord0007_af"
+            }
+          ],
+          "demand_key": "demand \u21167 \u0434\u0440\u043e\u043f",
+          "location_key": "loc0002",
+          "order_key": "ord0007_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T14:53:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T14:53:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T14:53:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T14:54:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T14:54:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [
+            {
+              "box_key": "box_key3",
+              "cargo_key": "ord0003_af"
+            }
+          ],
+          "demand_key": "demand \u21163 \u0434\u0440\u043e\u043f",
+          "location_key": "loc0004",
+          "order_key": "ord0003_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T15:02:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T15:02:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T15:02:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T15:03:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T15:03:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [],
+          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211615",
+          "location_key": "work_loc0007",
+          "order_key": "ord0021_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T16:15:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T16:15:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T16:15:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T16:30:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T16:30:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [
+            {
+              "box_key": "box_key3",
+              "cargo_key": "ord0023_af"
+            }
+          ],
+          "demand_key": "demand \u21167 \u0441\u0431\u043e\u0440",
+          "location_key": "loc0008",
+          "order_key": "ord0023_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T16:30:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T16:30:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T16:30:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T16:41:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T16:41:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [
+            {
+              "box_key": "box_key3",
+              "cargo_key": "ord0006_af"
+            }
+          ],
+          "demand_key": "demand \u21166 \u0441\u0431\u043e\u0440",
+          "location_key": "loc0001",
+          "order_key": "ord0006_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T17:14:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T17:14:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T17:14:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T17:19:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T17:19:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [
+            {
+              "box_key": "box_key3",
+              "cargo_key": "ord0006_af"
+            }
+          ],
+          "demand_key": "demand \u21166 \u0434\u0440\u043e\u043f",
+          "location_key": "loc0007",
+          "order_key": "ord0006_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T17:55:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T17:55:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T17:55:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T17:56:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T17:56:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [
+            {
+              "box_key": "box_key3",
+              "cargo_key": "ord0005_af"
+            }
+          ],
+          "demand_key": "demand \u21165 \u0434\u0440\u043e\u043f",
+          "location_key": "loc0006",
+          "order_key": "ord0005_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T18:02:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T18:02:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T18:02:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T18:03:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T18:03:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [
+            {
+              "box_key": "box_key3",
+              "cargo_key": "ord0023_af"
+            }
+          ],
+          "demand_key": "demand \u21167 \u0434\u0440\u043e\u043f",
+          "location_key": "loc0009",
+          "order_key": "ord0023_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T18:33:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T18:33:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T18:33:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T19:00:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T19:00:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [],
+          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211616",
+          "location_key": "work_loc0008",
+          "order_key": "ord0022_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T19:00:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T19:00:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T19:00:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T19:25:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T19:25:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [],
+          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211610",
+          "location_key": "work_loc0002",
+          "order_key": "ord0015_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T19:44:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T19:44:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T19:44:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T19:49:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T19:49:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [],
+          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211612",
+          "location_key": "work_loc0004",
+          "order_key": "ord0017_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T19:54:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T19:54:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T19:54:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T19:59:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T19:59:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [],
+          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u21169",
+          "location_key": "work_loc0001",
+          "order_key": "ord0014_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T20:04:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T20:04:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T20:04:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T20:09:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T20:09:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [],
+          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211614",
+          "location_key": "work_loc0006",
+          "order_key": "ord0019_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T20:18:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T20:18:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T20:18:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T20:23:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T20:23:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [],
+          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211611",
+          "location_key": "work_loc0003",
+          "order_key": "ord0016_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T20:30:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T20:30:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T20:30:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T20:35:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T20:35:00+00:00",
+              "job_type": "LOCATION_DEPARTURE"
+            }
+          ]
+        },
+        {
+          "cargo_placements": [],
+          "demand_key": "\u0417\u0430\u043a\u0430\u0437 \u211613",
+          "location_key": "work_loc0005",
+          "order_key": "ord0018_af",
+          "todolist": [
+            {
+              "job_time": "2020-07-29T20:35:00+00:00",
+              "job_type": "LOCATION_ARRIVAL"
+            },
+            {
+              "job_time": "2020-07-29T20:35:00+00:00",
+              "job_type": "READY_TO_WORK"
+            },
+            {
+              "job_time": "2020-07-29T20:35:00+00:00",
+              "job_type": "START_WORK"
+            },
+            {
+              "job_time": "2020-07-29T20:40:00+00:00",
+              "job_type": "FINISH_WORK"
+            },
+            {
+              "job_time": "2020-07-29T20:40:00+00:00",
               "job_type": "LOCATION_DEPARTURE"
             }
           ]
@@ -1552,15 +1552,15 @@
         {
           "shift_key": "shf0017",
           "shift_time": {
-            "from": "2020-07-29T06:00:00+00:00",
-            "to": "2020-07-29T14:55:00+00:00"
+            "from": "2020-07-29T12:51:00+00:00",
+            "to": "2020-07-29T20:59:00+00:00"
           }
         },
         {
           "shift_key": "shf0003",
           "shift_time": {
-            "from": "2020-07-29T06:00:00+00:00",
-            "to": "2020-07-29T14:55:00+00:00"
+            "from": "2020-07-29T12:51:00+00:00",
+            "to": "2020-07-29T20:59:00+00:00"
           }
         }
       ],
